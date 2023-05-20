@@ -1,0 +1,10 @@
+{
+    "sidebarComponent": [{
+        "name": "Introduccion",
+        "id": "introduccion",
+        "subcategory": [{
+            "name": "Requisitos",
+            "id": "requisitos"
+        }]
+    }]
+}
