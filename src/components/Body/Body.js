@@ -137,7 +137,7 @@ function GenerarToken() {
             token, seleccionamos la opcion de <a>generar token</a> . <br />
             Si ocurre algun error debemos de modificar el archivo{" "}
             <a>./ns_npm_repository/oauth1/index.js</a>, buscamos{" "}
-            <a href="">hostnameStep1</a> y cambiamos rest por system, deberia de
+            <a>hostnameStep1</a> y cambiamos rest por system, deberia de
             quedar de la siguiente manera:
           </p>
           <div className="code">
