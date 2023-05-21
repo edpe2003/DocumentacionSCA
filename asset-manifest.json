@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DocumentacionSCA/static/css/main.4a136776.css",
-    "main.js": "/DocumentacionSCA/static/js/main.d8db402a.js",
+    "main.css": "/DocumentacionSCA/static/css/main.88874626.css",
+    "main.js": "/DocumentacionSCA/static/js/main.0c02b53d.js",
     "index.html": "/DocumentacionSCA/index.html",
-    "main.4a136776.css.map": "/DocumentacionSCA/static/css/main.4a136776.css.map",
-    "main.d8db402a.js.map": "/DocumentacionSCA/static/js/main.d8db402a.js.map"
+    "main.88874626.css.map": "/DocumentacionSCA/static/css/main.88874626.css.map",
+    "main.0c02b53d.js.map": "/DocumentacionSCA/static/js/main.0c02b53d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a136776.css",
-    "static/js/main.d8db402a.js"
+    "static/css/main.88874626.css",
+    "static/js/main.0c02b53d.js"
   ]
 }
