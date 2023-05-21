@@ -52,7 +52,7 @@ path {
 
 .category svg {
     transform: rotate(-90deg);
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .rotate-category {
