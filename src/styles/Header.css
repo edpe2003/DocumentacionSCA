@@ -91,3 +91,17 @@ path {
         width: 100%;
     }
 }
+
+.search-container {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.search-container input {
+    width: -webkit-fill-available;
+}
+
+.search-btn {}

@@ -38,6 +38,36 @@
     padding: 1em;
 }
 
+.code-img {
+    text-align: center;
+}
+
+.code-img img {
+    width: 60em;
+    margin: 2em;
+}
+
+@media (max-width: 768px) {
+    .code-img img {
+        width: 40em;
+        margin: 2em;
+    }
+}
+
+@media (max-width: 540px) {
+    .code-img img {
+        width: 25em;
+        margin: 2em;
+    }
+}
+
+@media (max-width: 365px) {
+    .code-img img {
+        width: 17em;
+        margin: 2em;
+    }
+}
+
 .header-code {
     font-size: 20px !important;
     border-bottom: 1px solid #202123;
