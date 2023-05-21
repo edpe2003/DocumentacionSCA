@@ -1,6 +1,19 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.header-btn {
+    background-color: #242427;
+    padding: 0.6em;
+    border-radius: 7px;
+}
+
 .header-bar {
-    background-color: #202123;
-    font-size: 1.5em;
+    background-color: #242427e6;
+    backdrop-filter: blur(10px);
+    font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,13 +25,8 @@ path {
     color: white;
 }
 
-.header {
-    width: 100%;
-    position: fixed;
-}
-
 .all-categories {
-    width: 45%;
+    width: 30%;
     border-radius: 5px;
 }
 
@@ -34,9 +42,17 @@ path {
     padding: 0 0.7em 0 0.7em;
 }
 
+.category * {
+    font-size: 0.9em;
+}
+
+.sub-category * {
+    font-size: 0.8em;
+}
+
 .category svg {
     transform: rotate(-90deg);
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .rotate-category {
@@ -50,6 +66,10 @@ path {
     border-radius: 5px;
 }
 
+.block-category:hover {
+    background-color: #242427;
+}
+
 .subcategories {
     padding: 0.5em 0.5em 0.5em 1.5em;
     border-radius: 5px;
@@ -60,6 +80,10 @@ path {
     padding: 0.4em;
     border-bottom: 3px solid #202123;
     border-radius: 2px;
+}
+
+.sub-category:hover {
+    background-color: #434452;
 }
 
 @media (max-width: 768px) {

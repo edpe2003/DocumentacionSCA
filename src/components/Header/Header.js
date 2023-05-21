@@ -18,11 +18,15 @@ function Header() {
   return (
     <div>
       <div className="header-bar">
-        <BsList
+        <div
+          className="header-btn"
           onClick={() => {
             handleClickHeaderBtn(showSideBar);
           }}
-        />
+        >
+          <BsList />
+        </div>
+
         <p>Documentacion SCA</p>
       </div>
       {showSideBar ? (

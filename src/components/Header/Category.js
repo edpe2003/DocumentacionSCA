@@ -12,7 +12,12 @@ function Category(props) {
     setSubcategoryState(showSubcategory ? false : true);
   };
 
-  const handleClickCategory = (categoryId) => {};
+  const handleClickCategory = (categoryId) => {
+    const element = document.getElementById(categoryId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div className="block-category">
@@ -22,8 +27,8 @@ function Category(props) {
             handleClickCategory(categoryInformation.id);
           }}
         >
-          {categoryInformation.name}
-        </p>
+          {categoryInformation.name}{" "}
+        </p>{" "}
         {categoryInformation.subcategory ? (
           <div
             onClick={() => {
@@ -34,14 +39,15 @@ function Category(props) {
               <BsArrowDownCircle className="rotate-category" />
             ) : (
               <BsArrowDownCircle />
-            )}
+            )}{" "}
           </div>
         ) : (
           <> </>
-        )}
-      </div>
+        )}{" "}
+      </div>{" "}
       {showSubcategory ? (
         <div className="subcategories">
+          {" "}
           {categoryInformation.subcategory.map((item, index) => (
             <div
               key={index}
@@ -50,13 +56,13 @@ function Category(props) {
                 handleClickCategory(item.id);
               }}
             >
-              <p> {item.name} </p>
+              <p> {item.name} </p>{" "}
             </div>
-          ))}
+          ))}{" "}
         </div>
       ) : (
         <> </>
-      )}
+      )}{" "}
     </div>
   );
 }

@@ -1,10 +1,28 @@
 {
     "sidebarComponent": [{
-        "name": "Introduccion",
-        "id": "introduccion",
-        "subcategory": [{
-            "name": "Requisitos",
-            "id": "requisitos"
-        }]
-    }]
+            "name": "Introduccion",
+            "id": "introduccion",
+            "subcategory": [{
+                "name": "Requisitos",
+                "id": "requisitos"
+            }]
+        },
+        {
+            "name": "Primeros Pasos",
+            "id": "primeros-pasos",
+            "subcategory": [{
+                    "name": "Instalar Dev TOOLs",
+                    "id": "instalar-dev-tools"
+                },
+                {
+                    "name": "Generar Token",
+                    "id": "generar-token"
+                }
+            ]
+        },
+        {
+            "name": "Comandos Basicos de Gulp",
+            "id": "comandos-gulp"
+        }
+    ]
 }
